@@ -1,0 +1,81 @@
+{% load static %}
+<html>
+
+<head>
+    <title>__init__iators</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script href="{% static 'js/main.js' %}"></script>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<div id="wrapper">
+
+
+					<header id="header">
+						<!-- <span class="avatar"><img src="{% static 'images/avatar.jpg' %}"></span> -->
+						<h1><strong>WELCOME TO IMAGE PROCESSING.</strong></h1>
+
+					</header>
+
+
+					<section id="main">
+
+
+							<section class="thumbnails">
+								<div>
+									<a href="{% static 'images/bldg_back.jpg' %}">
+										<img src="{% static 'images/thumbs/01.jpg' %}"  />
+										<h3>BUILDING</h3>
+									</a>
+									<a href="{% static 'images/forest _back1.jpg'  %}">
+										<img src="{% static 'images/thumbs/02.jpg' %}"  />
+										<h3>FOREST</h3>
+									</a>
+								</div>
+								<div>
+									<a href="{% static 'images/street_back.jpg' %}">
+										<img src="{% static 'images/thumbs/03.jpg' %}"  />
+										<h3>STREET</h3>
+									</a>
+									<a href="{% static 'images/sea_back.jpg' %}">
+										<img src="{% static 'images/thumbs/07.jpg' %}"  />
+										<h3>SEA</h3>
+									</a>
+
+									</a>
+
+								</div>
+								<div>
+									<a href="{% static 'images/glacier_back.jpg' %}">
+										<img src="{% static 'images/thumbs/06.jpg' %}"/>
+										<h3>GLACIER</h3>
+									</a>
+
+									<a href="{% static 'images/mountain_back.jpg' %}">
+										<img src="{% static 'images/thumbs/04.jpg' %}"/>
+										<h3>MOUNTAIN</h3>
+									</a>
+								</div>
+							</section>
+
+					</section>
+
+
+					<footer id="footer">
+						<p> Thank you.</p>
+					</footer>
+
+			</div>
+
+
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.poptrox.min.js' %}"></script>
+			<script src="{% static 'assets/js/skel.min.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</body>
+</html>
